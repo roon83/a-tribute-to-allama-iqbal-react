@@ -1,7 +1,5 @@
 let React = require('react');
 let ReactBootstrap = require('react-bootstrap');
-let Poetry = require('./Poetry');
-let More = require('./More');
 require('../index.css');
 
 let Jumbotron = ReactBootstrap.Jumbotron,

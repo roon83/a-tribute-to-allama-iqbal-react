@@ -23,7 +23,7 @@ Col = ReactBootstrap.Col;
 class NavBar extends React.Component {
     render(){
         return (
-            <div ref='main'>
+            <div>
                 <div id='home'>
                     <Affix viewOffsetTop={20} container={this.getMain}>
                         <Navbar fixedTop={true} fluid={true}>
