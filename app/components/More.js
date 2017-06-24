@@ -14,7 +14,7 @@ const More = () => {
                         <a href='http://www.britannica.com/biography/Muhammad-Iqbal'>Encyclopaedia Britannica page of Allama Muhammad Iqbal</a>
                     </div>
                     <div>
-                        <a href='http://www.allamaiqbal.cm/person/years.htm'>Detailed timeline of Allama Muhammad Iqbal's life</a>
+                        <a href='http://www.allamaiqbal.com/person/years/years.htm'>Detailed timeline of Allama Muhammad Iqbal's life</a>
                     </div>
                 </div>
             </div>

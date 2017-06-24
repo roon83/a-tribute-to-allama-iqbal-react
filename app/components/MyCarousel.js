@@ -65,7 +65,7 @@ const MyCarousel = () => {
                                     <Thumbnail src={iqbal_pic5} />
                                 </div>
                             </Col>
-                        </Row>>
+                        </Row>
                     </div>
                 </Grid>
             </Carousel.Item>
@@ -88,7 +88,7 @@ const MyCarousel = () => {
                                     <Thumbnail src={iqbal_pic8} />
                                 </div>
                             </Col>
-                        </Row>>
+                        </Row>
                     </div>
                 </Grid>
             </Carousel.Item>
