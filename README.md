@@ -9,3 +9,4 @@ Tools used:
 4.  React-Bootstrap
 5.  React-Scrollspy
 6.  React-Scrollchor
+7.  Npm (node package manager)
