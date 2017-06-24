@@ -4,14 +4,14 @@ let ReactBootstrap = require('react-bootstrap');
 require('../../node_modules/bootstrap/dist/css/bootstrap.min.css');
 require('../carousel.css');
 require('../index.css');
-const iqbal_pic1 = require('../image/010.png'),
-iqbal_pic2 = require('../image/06.png'),
-iqbal_pic3 = require('../image/02.png'),
-iqbal_pic4 = require('../image/03.png'),
-iqbal_pic5 = require('../image/08.png'),
-iqbal_pic6 = require('../image/01.png'),
-iqbal_pic7 = require('../image/05.png'),
-iqbal_pic8 = require('../image/09.png');
+const iqbal_pic1 = require('../image/010.jpg'),
+iqbal_pic2 = require('../image/06.jpg'),
+iqbal_pic3 = require('../image/02.jpg'),
+iqbal_pic4 = require('../image/03.jpg'),
+iqbal_pic5 = require('../image/08.jpg'),
+iqbal_pic6 = require('../image/01.jpg'),
+iqbal_pic7 = require('../image/05.jpg'),
+iqbal_pic8 = require('../image/09.jpg');
 
 let Carousel = ReactBootstrap.Carousel,
 Row = ReactBootstrap.Row,

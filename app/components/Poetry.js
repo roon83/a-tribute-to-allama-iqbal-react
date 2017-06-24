@@ -1,7 +1,7 @@
 let React = require('react');
 let ReactBootstrap = require('react-bootstrap');
 require('../../node_modules/bootstrap/dist/css/bootstrap.min.css');
-const poem = require('../image/old-paper-2.png');
+const poem = require('../image/old-paper-2.jpg');
 
 let Grid = ReactBootstrap.Grid, Thumbnail = ReactBootstrap.Thumbnail;
 
