@@ -24,29 +24,27 @@ class NavBar extends React.Component {
     render(){
         return (
             <div>
-                <div id='home'>
-                    <Affix>
-                        <Navbar fixedTop={true} fluid={true}>
-                            <Navbar.Header>
-                                <Navbar.Toggle />
-                            </Navbar.Header>
+                <Affix>
+                    <Navbar role='navigation' fixedTop={true} fluid={true}>
+                        <Navbar.Header>
+                            <Navbar.Toggle />
                             <Navbar.Brand>
                                 <a id='home' className='navbar-brand-fontsize hidden-xs lobsterfont'>Allama Muhammad Iqbal</a>
                             </Navbar.Brand>
                             <Navbar.Brand>
                                 <a id='home' className='hidden-sm hidden-md hidden-lg lobsterfont'>Allama Muhammad Iqbal</a>
                             </Navbar.Brand>
-                            <Navbar.Collapse>
-                                <Scrollspy offset={ -120 } className='navbar-nav nav navbar-right' items={ ['home', 'about', 'poetry', 'more'] } currentClassName='active'>
-                                    <li className='hover fjallafont nav-btn-fontsize'><Scrollchor to='#home' className='nav-link'>Home</Scrollchor></li>
-                                    <li className='hover fjallafont nav-btn-fontsize'><Scrollchor to='#about' className='nav-link'>About</Scrollchor></li>
-                                    <li className='hover fjallafont nav-btn-fontsize'><Scrollchor to='#poetry' className='nav-link'>Poetry</Scrollchor></li>
-                                    <li className='hover fjallafont nav-btn-fontsize' ><Scrollchor to='#more' className='nav-link'>More</Scrollchor></li>
-                                </Scrollspy>
-                            </Navbar.Collapse>
-                        </Navbar>
-                    </Affix>
-                </div>
+                        </Navbar.Header>
+                        <Navbar.Collapse>
+                            <Scrollspy offset={ -200 } className='navbar-nav nav navbar-right' items={ ['home', 'about', 'poetry', 'more'] } currentClassName='active'>
+                                <li className='hover fjallafont nav-btn-fontsize'><Scrollchor to='#home' className='nav-link'>Home</Scrollchor></li>
+                                <li className='hover fjallafont nav-btn-fontsize'><Scrollchor to='#about' className='nav-link'>About</Scrollchor></li>
+                                <li className='hover fjallafont nav-btn-fontsize'><Scrollchor to='#poetry' className='nav-link'>Poetry</Scrollchor></li>
+                                <li className='hover fjallafont nav-btn-fontsize' ><Scrollchor to='#more' className='nav-link'>More</Scrollchor></li>
+                            </Scrollspy>
+                        </Navbar.Collapse>
+                    </Navbar>
+                </Affix>
                 <MyCarousel />
                 <div>
                     <Grid>
