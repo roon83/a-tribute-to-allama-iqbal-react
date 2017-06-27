@@ -13,4 +13,4 @@ Tools used:
 
 ## Demo Link ##
 
-[Demo Page]('https://tribute-to-allama-iqbal-react.firebaseapp.com/)
+[Page Link](https://tribute-to-allama-iqbal-react.firebaseapp.com/)
