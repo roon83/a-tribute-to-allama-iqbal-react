@@ -26,17 +26,17 @@ const MyCarousel = () => {
                 <Grid>
                     <div className='slide-wrapper'>
                         <Row>
-                            <Col xs={4}>
+                            <Col lg={4} xsHidden smHidden mdHidden >
                                 <div className='slide-image'>
                                     <Thumbnail src={iqbal_pic1} />
                                 </div>
                             </Col>
-                            <Col xs={4}>
+                            <Col lg={4} sm={6} xs={12}>
                                 <div className='slide-image'>
                                     <Thumbnail src={iqbal_pic2} />
                                 </div>
                             </Col>
-                            <Col xs={4}>
+                            <Col lg={4} sm={6} xsHidden >
                                 <div className='slide-text text-color'>
                                     <p className='text-center fjallafont'>Some photos of Iqbal taken at different occasions</p>
                                     <p className='text-center fjallafont'>Click right arrow for more</p>
@@ -50,17 +50,17 @@ const MyCarousel = () => {
                 <Grid>
                     <div className='slide-wrapper'>
                         <Row>
-                            <Col xs={4}>
+                            <Col lg={4} xsHidden smHidden mdHidden >
                                 <div className='slide-image'>
                                     <Thumbnail src={iqbal_pic3} />
                                 </div>
                             </Col>
-                            <Col xs={4}>
+                            <Col lg={4} sm={6} xs={12}>
                                 <div className='slide-image'>
                                     <Thumbnail src={iqbal_pic4} />
                                 </div>
                             </Col>
-                            <Col xs={4}>
+                            <Col lg={4} sm={6} xsHidden >
                                 <div className='slide-image'>
                                     <Thumbnail src={iqbal_pic5} />
                                 </div>
@@ -73,17 +73,17 @@ const MyCarousel = () => {
                 <Grid>
                     <div className='slide-wrapper'>
                         <Row>
-                            <Col xs={4}>
+                            <Col lg={4} xsHidden smHidden mdHidden >
                                 <div className='slide-image'>
                                     <Thumbnail src={iqbal_pic6} />
                                 </div>
                             </Col>
-                            <Col xs={4}>
+                            <Col lg={4} xs={12} sm={6}>
                                 <div className='slide-image'>
                                     <Thumbnail src={iqbal_pic7} />
                                 </div>
                             </Col>
-                            <Col xs={4}>
+                            <Col lg={4} sm={6} xsHidden >
                                 <div className='slide-image'>
                                     <Thumbnail src={iqbal_pic8} />
                                 </div>
