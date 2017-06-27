@@ -25,13 +25,16 @@ class NavBar extends React.Component {
         return (
             <div>
                 <div id='home'>
-                    <Affix viewOffsetTop={20} container={this.getMain}>
+                    <Affix>
                         <Navbar fixedTop={true} fluid={true}>
                             <Navbar.Header>
                                 <Navbar.Toggle />
                             </Navbar.Header>
                             <Navbar.Brand>
-                                <a id='home' className='lobsterfont'>Allama Muhammad Iqbal</a>
+                                <a id='home' className='navbar-brand-fontsize hidden-xs lobsterfont'>Allama Muhammad Iqbal</a>
+                            </Navbar.Brand>
+                            <Navbar.Brand>
+                                <a id='home' className='hidden-sm hidden-md hidden-lg lobsterfont'>Allama Muhammad Iqbal</a>
                             </Navbar.Brand>
                             <Navbar.Collapse>
                                 <Scrollspy offset={ -120 } className='navbar-nav nav navbar-right' items={ ['home', 'about', 'poetry', 'more'] } currentClassName='active'>

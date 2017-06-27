@@ -18,7 +18,7 @@ const About = () => {
                 <h2>Here's the timeline of Allama Muhammad Iqbal's life:</h2>
             </div>
             <Row>
-                <div className='table container'>
+                <div className='table'>
                     <table className='table table-hover'>
                         <thead className="fjallafont">
                             <tr>

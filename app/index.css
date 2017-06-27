@@ -92,6 +92,10 @@ h1 {
 .thumbnail {
     float: right;
 }
+.slide-image {
+    display: flex;
+    justify-content: center;
+}
 .slide-image .thumbnail img {
     max-height: 29.06em;
 }
@@ -100,6 +104,11 @@ h1 {
     background-color: rgb(54, 39, 25);
     border-color: rgb(54, 39, 25);
     color: rgb(54, 39, , 25);
+}
+
+.navbar-brand-fontsize {
+    font-size: 1.875em;
+    line-hight: 0.9375em;
 }
 
 .navbar-default .navbar-brand {
@@ -175,15 +184,11 @@ h1 {
 
 }
 
-.navbar-brand {
-    font-size: 1.875em;
-    line-hight: 0.9375em;
-}
 .nav-btn-fontsize {
     font-size: 1.125em;
 }
 .container {
-    width: 100%;
+    width: 90%;
 }
 
 @media(min-width:767px) {
