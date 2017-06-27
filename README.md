@@ -10,3 +10,7 @@ Tools used:
 5.  React-Scrollspy
 6.  React-Scrollchor
 7.  Npm (node package manager)
+
+## Demo Link ##
+
+[Demo Page]('https://tribute-to-allama-iqbal-react.firebaseapp.com/)
