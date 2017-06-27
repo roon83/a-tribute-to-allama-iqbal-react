@@ -183,7 +183,7 @@ h1 {
     font-size: 1.125em;
 }
 .container {
-    width: 80%;
+    width: 100%;
 }
 
 @media(min-width:767px) {
