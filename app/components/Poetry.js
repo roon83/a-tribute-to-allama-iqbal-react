@@ -11,7 +11,7 @@ const Poetry = () => {
             <div className='text-center text-color lobsterfont'>
                 <h2>Poem written by Iqbal in persian</h2>
             </div>
-            <Grid>
+            <Grid className='flex-center'>
                 <Thumbnail src={poem} alt='Persian poem of Allama Iqbal' />
             </Grid>
         </div>

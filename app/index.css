@@ -92,7 +92,7 @@ h1 {
 .thumbnail {
     float: right;
 }
-.slide-image {
+.slide-image, .flex-center {
     display: flex;
     justify-content: center;
 }
